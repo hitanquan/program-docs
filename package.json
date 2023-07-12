@@ -1,0 +1,14 @@
+{
+  "name": "program-docs",
+  "version": "2.0.0",
+  "description": "木佑编程文档",
+  "author": "muyou",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.66"
+  },
+   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
