@@ -13,6 +13,9 @@ export default defineUserConfig({
     logo: 'logo.jpg',
     sidebar,
     navbar,
+    editLink: false,
+    contributors: false,
+    lastUpdated: false
   }),
   head:[['link', { rel: 'icon', href: '/logo.jpg' }]],
   plugins: [
