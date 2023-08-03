@@ -9,7 +9,6 @@ export default defineUserConfig({
   title: "木佑编程文档",
   description: "这是我的第一个 VuePress 站点",
   base: "/program-docs/",
-  dest: './public',
   theme: defaultTheme({
     logo: 'logo.jpg',
     sidebar,
