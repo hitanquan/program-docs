@@ -2,7 +2,6 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 import sidebar from "./sidebar";
 import navbar from "./navbar";
 import searchPlugin from "@vuepress/plugin-search";
-import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -58,9 +57,6 @@ export default defineUserConfig({
   plugins: [
     searchPlugin({
       // 配置项
-    }),
-    sitemapPlugin({
-      hostname: "https://muyou.icu"
-    }),
+    })
   ]
 });
